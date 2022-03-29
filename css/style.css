@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+html {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table-responsive-sm{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table-responsive {
+    display: table-cell;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.pilsmua {color: blue;}
+
+.pilsmua:hover{color: blue;}
