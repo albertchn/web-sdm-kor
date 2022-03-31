@@ -39,11 +39,11 @@
                         <a href="surat_keluar.php" class="nav-link" style="font-weight: 500;">Surat Keluar</a>
                     </li>
                     <li class="navbar-item mt-2">
-                        <a href="" class="btn btn-info rounded d-md-none d-sm-block" style="font-weight: 500;">Keluar</a>
+                        <a href="" class="btn btn-info rounded d-md-none d-sm-block" style="font-size:14px; font-weight: 500;">Keluar</a>
                     </li>
                 </ul>
             </div>
-            <a href="logout.php" class="btn btn-info rounded d-none d-md-block" style="font-size:14px">Keluar</a>
+            <a href="logout.php" class="btn btn-info rounded d-none d-md-block" style="font-size:14px; font-weight: 500;">Keluar</a>
         </div>
     </nav>
     <!-- AKHIR NAVBAR -->
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mb-4">
-                <div class="col-6">
+                <div class="col-6 col-md-4">
                     <form action="" method="post" class="form-cari mt-3">
                         <input type="text" name="keyword" placeholder="Cari ...." autofocus autocomplete="off" class="keyword form-control mt-2" style="font-size: 13px;">
                     </form>
@@ -84,18 +84,20 @@
                 <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered table-hover text-center">
                     <thead class="table-light">
                         <th style="width:2rem"></th>
-                        <th style="width:6rem">Tgl. Surat</th>
-                        <th style="width:10rem">No. Surat</th>
-                        <th style="width:23rem">Perihal</th>
+                        <th style="width:5rem">Tgl. Surat</th>
+                        <th style="width:12rem">No. Surat</th>
+                        <th style="width:20rem">Perihal</th>
+                        <th style="width:5rem">Kepada</th>
                         <th style="width:5rem">File</th>
                         <th style="width:5rem">Action</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="" style="vertical-align: middle; middle; min-width: 2rem"><input type="checkbox"></td>
-                            <td style="vertical-align: middle; middle; min-width: 7rem">29-02-2022</td>
-                            <td style="vertical-align: middle; middle; min-width: 10rem">B/ND-103/III/KEP/2022</td>
-                            <td class="text-start" style="vertical-align: middle; min-width: 23rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fuga rem. Doloribus tenetur provident sint iure? Sunt sapiente eaque praesentium, dolor provident beatae asperiores suscipit! Sint vero ab accusamus laborum!</td>
+                            <td style="vertical-align: middle; middle; min-width: 5rem">29-02-2022</td>
+                            <td style="vertical-align: middle; middle; min-width: 12rem">B/ND-103/III/KEP/2022</td>
+                            <td class="text-start" style="vertical-align: middle; min-width: 20rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fuga rem. Doloribus tenetur provident sint iure? Sunt sapiente eaque praesentium, dolor provident beatae asperiores suscipit! Sint vero ab accusamus laborum!</td>
+                            <td style="vertical-align: middle; middle; min-width: 5rem">Bharaka Nizar</td>
                             <td style="vertical-align: middle; middle; min-width: 5rem">PDF</td>
                             <td class="" style="vertical-align: middle;">
                                 <a href="edit.php?" class="btn btn-success mb-2" style="font-size:14px; width: 5rem">Edit</a>
@@ -107,6 +109,7 @@
                             <td style="vertical-align: middle; middle; min-width: 7rem">29-02-2022</td>
                             <td style="vertical-align: middle; middle; min-width: 10rem">B/ND-103/III/KEP/2022</td>
                             <td class="text-start" style="vertical-align: middle; min-width: 23rem">Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                            <td style="vertical-align: middle; middle; min-width: 5rem">Bharaka Nizar</td>
                             <td style="vertical-align: middle; middle; min-width: 5rem">PDF</td>
                             <td class="" style="vertical-align: middle;">
                                 <a href="edit.php?" class="btn btn-success mb-2" style="font-size:14px; width: 5rem">Edit</a>
@@ -149,6 +152,10 @@
                         <div class="mt-3">
                             <label for="perihal" class="form-label">Perihal</label>
                             <input type="text" name="perihal" id="perihal" class="form-control" required>
+                        </div>
+                        <div class="mt-3">
+                            <label for="kepada" class="form-label">Kepada</label>
+                            <input type="text" name="kepada" id="kepada" class="form-control" required>
                         </div>
                         <div class="my-3">
                             <label for="pdf" class="form-label">File PDF</label>

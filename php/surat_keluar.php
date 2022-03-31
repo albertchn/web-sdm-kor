@@ -39,11 +39,11 @@
                         <a href="" class="nav-link active" style="font-weight: 600;">Surat Keluar</a>
                     </li>
                     <li class="navbar-item mt-2">
-                        <a href="" class="btn btn-info rounded d-md-none d-sm-block" style="font-weight: 500;">Keluar</a>
+                        <a href="" class="btn btn-info rounded d-md-none d-sm-block" style="font-size:14px; font-weight: 500;">Keluar</a>
                     </li>
                 </ul>
             </div>
-            <a href="logout.php" class="btn btn-info rounded d-none d-md-block" style="font-size:14px">Keluar</a>
+            <a href="logout.php" class="btn btn-info rounded d-none d-md-block" style="font-size:14px; font-weight: 500;">Keluar</a>
         </div>
     </nav>
     <!-- AKHIR NAVBAR -->
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mb-4">
-                <div class="col-6">
+                <div class="col-8 col-md-4">
                     <form action="" method="post" class="form-cari mt-3">
                         <input type="text" name="keyword" placeholder="Cari ...." autofocus autocomplete="off" class="keyword form-control mt-2" style="font-size: 13px;">
                     </form>
