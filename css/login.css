@@ -1,0 +1,50 @@
+html, body{
+	height: 100%;
+	background-color: #e8ffc2;
+}
+
+.global-container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0e185f;
+}
+
+.login-form{
+	width: 380px;
+	height: 450px;
+	padding: 20px;
+	background-color: #0fd !important;
+	border-radius: 10px !important;
+}
+
+input[type="email"],
+input[type="password"]{
+	background-color: aquamarine;
+	color: aliceblue;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+	outline: none;
+	border: none;
+	background: rgb(235, 235, 235);
+	margin: 0;
+}
+
+.card-title{
+	font-weight: 900;
+	padding-top: 20px;
+}
+
+.btn{
+	background: rgb(10, 9, 17) !important;
+	color: rgb(255, 250, 252);
+	transform: translateY(10px);
+	font-size: 14px;
+	border-radius: 10px !important;
+}

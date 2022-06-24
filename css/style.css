@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 html {
     user-select: none;
+    overflow-x: hidden;
 }
 
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -14,19 +17,13 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-  
-table-responsive-sm{
-    display: table;
-    table-layout: fixed;
-    width: 100%;
+
+th {
+    margin: 0;
+    padding: 0;
 }
 
-table-responsive {
-    display: table-cell;
-    overflow-x: auto;
-    width: 100%;
+td{
+    margin: 0;
+    padding: 0;
 }
-
-.pilsmua {color: blue;}
-
-.pilsmua:hover{color: blue;}
