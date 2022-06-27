@@ -144,9 +144,9 @@ $footer = mysqli_query($conn, "SELECT * FROM komponen WHERE nama_komponen = 'foo
     <!-- AKHIR INTRO -->
     
     <!-- FOOTER -->
-    <footer class="border-top bg-light" style="margin-top: 10rem;">
+    <footer class="border-top bg-light pt-3">
         <div class="container-xl">
-            <p class="p-3 text-center"><?= $footer['isi_komponen']; ?></p>
+            <p class="text-center"><?= $footer['isi_komponen']; ?></p>
         </div>
     </footer>
 

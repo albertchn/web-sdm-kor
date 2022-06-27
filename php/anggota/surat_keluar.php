@@ -192,9 +192,9 @@ if(isset($_POST["tambah"])) {
     <!-- AKHIR SECTION -->
 
     <!-- FOOTER -->
-    <footer class="border-top bg-light" style="margin-top: 10rem;">
+    <footer class="border-top bg-light pt-3">
         <div class="container-xl">
-            <p class="p-3 text-center"><?= $footer["isi_komponen"]; ?></p>
+            <p class="text-center"><?= $footer["isi_komponen"]; ?></p>
         </div>
     </footer>
     <!-- AKHIR FOOTER -->

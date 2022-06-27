@@ -145,9 +145,9 @@ if(isset($_POST["ubah"])) {
     </section>
 
     <!-- FOOTER -->
-    <footer class="border-top bg-light" style="margin-top: 10rem;">
+    <footer class="border-top bg-light pt-3">
         <div class="container-xl">
-            <p class="p-3 text-center"><?= $footer["isi_komponen"]; ?> <a href="#" data-bs-toggle="modal" data-bs-target="#ganti_footer" class="text-dark"><i class="bi bi-pencil-square" ></i></a></p>
+            <p class="text-center"><?= $footer["isi_komponen"]; ?> <a href="#" data-bs-toggle="modal" data-bs-target="#ganti_footer" class="text-dark"><i class="bi bi-pencil-square" ></i></a></p>
         </div>
     </footer>
     <!-- AKHIR FOOTER -->
