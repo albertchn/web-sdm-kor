@@ -155,7 +155,7 @@ if(isset($_POST["tambah"])) {
                                 <td style="vertical-align: middle; min-width: 7rem"><?= date('d-m-Y', strtotime($data["tgl_surat"])); ?></td>
                                 <td style="vertical-align: middle; min-width: 10rem"><?= $data["no_surat"]; ?></td>
                                 <td class="text-start" style="vertical-align: middle; min-width: 23rem"><?= $data["perihal"]; ?></td>
-                                <td style="vertical-align: middle; min-width: 5rem"><a href="https://drive.google.com/file/d/<?= $data["file"]; ?>/view?usp=drive_open" target="_blank">PDF</a></td>
+                                <td style="vertical-align: middle; min-width: 5rem"><a href="../../fileSuratKeluar/<?= $data["file"]; ?>/view?usp=drive_open" target="_blank">PDF</a></td>
                                 <td class="dropdown" style="vertical-align: middle;">
                                     <a class="text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="bi bi-three-dots-vertical"></i>

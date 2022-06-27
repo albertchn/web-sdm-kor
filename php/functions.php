@@ -296,7 +296,7 @@ function ubah_foto($data) {
                         </script>";
             return false; // agar fungsi tambah tidak dijalankan
             }
-            move_uploaded_file($_FILES["foto"]["tmp_name"][$i], '../../file_uploaded/' . $_FILES["foto"]["name"][$i]);
+            move_uploaded_file($_FILES["foto"]["tmp_name"][$i], '../../img/' . $_FILES["foto"]["name"][$i]);
             $namaFoto[] = $_FILES['foto']['name'][$i];
         }
         $foto = implode(",", $namaFoto);

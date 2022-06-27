@@ -63,39 +63,43 @@ if(isset($_POST["login"])) {
     <title>LOGIN</title>
 </head>
 <body>
-
-    <!-- card -->
-    <div class="global-container">
-        <div class="card login-form">
-            <div class="card-body">
-                <h1 class="card-title text-center">L O G I N</h1>
-                <?php if(isset($invalid_password)) :?>
-                    <p>Password salah</p>
-                <?php endif; ?>
-                <?php if(isset($invalid_username)) :?>
-                    <p>Username salah</p>
-                <?php endif; ?>
-            </div>
-            <div class="card-text">
-                <form method="POST">
-                    <div class="mb-4">
-                        <label for="username" class="form-label">Username</label>
-                        <input type="number" class="form-control" id="username" name="username" autofocus autocomplete="off" required>
+    <section class="vh-100">
+        <div class="container py-4 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card text-black" style="border-radius: 1rem;">
+                        <div class="card-body p-5">
+                            <div class="mb-md-5 mt-md-4">
+                                <div class="img text-center">
+                                    <img class="mb-2" src="../img/Lambang_Korpolairud.svg" alt="lamabang korpolairud" width="100px">
+                                    <h2 class="fw-bold text-uppercase">L O G I N</h2>
+                                </div>
+                                <?php if(isset($invalid_password)) :?>
+                                    <p style="color:red; font-style: italic;">Password salah</p>
+                                <?php endif; ?>
+                                <?php if(isset($invalid_username)) :?>
+                                    <p style="color:red; font-style: italic;">Username salah</p>
+                                <?php endif; ?>
+                                <form action="" method="post">
+                                    <div class="form-outline form-white mb-4">
+                                        <label class="form-label" for="username"><b>NRP</b></label>
+                                        <input type="number" id="username" name="username" class="form-control form-control-lg" required autocomplete="off" autofocus style="font-size:16px;" placeholder="harus angka...">
+                                    </div>
+                                    <div class="form-outline form-white mb-4">
+                                        <label class="form-label" for="password"><b>Password</b></label>
+                                        <input type="password" id="password" name="password" class="form-control form-control-lg" required autocomplete="off" style="font-size:16px;"placeholder="jangan lupa yaa...">
+                                    </div>
+                                    <div class="button text-center">
+                                        <button class="btn btn-outline-light btn-primary mx-2 px-5" type="submit" style="border-radius: 10px;" name="login">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-5">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" name="password" autocomplete="off" required>
-                    </div>
-                    <div class="d-grid ">
-                        <button type="submit" class="btn btn-primary" name="login">Login</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- card selesai -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

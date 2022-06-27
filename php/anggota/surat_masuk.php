@@ -161,7 +161,7 @@ if(isset($_POST["tambah"])) {
                                 <td style="vertical-align: middle; min-width: 2rem; "><?= $data["terima_dari"]; ?></td>
                                 <td class="text-start" style="vertical-align: middle; min-width: 20rem; "><?= $data["perihal"]; ?></td>
                                 <td style="vertical-align: middle; min-width: 8rem; margin:0; padding:0;"><?= $data["kepada"]; ?></td>
-                                <td style="vertical-align: middle; min-width: 3rem; margin:0; padding:0;"><a href="../../file_uploaded/<?= $data["file"]; ?>" target="_blank">PDF</a></td>
+                                <td style="vertical-align: middle; min-width: 3rem; margin:0; padding:0;"><a href="../../fileSuratMasuk/<?= $data["file"]; ?>" target="_blank">PDF</a></td>
                                 <td class="dropdown" style="vertical-align: middle;">
                                     <a class="text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="bi bi-three-dots-vertical"></i>

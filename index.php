@@ -115,24 +115,24 @@ $footer = mysqli_query($conn, "SELECT * FROM komponen WHERE nama_komponen = 'foo
                             <?php $foto = explode(',',$foto_index["isi_komponen"]); ?>
                             <?php if(!empty($foto[0])) { ?>
                             <div class="carousel-item active">
-                                <img src="file_uploaded/<?= $foto[0]; ?>" class="d-block w-100" style="height: 380px;">
+                                <img src="img/<?= $foto[0]; ?>" class="d-block w-100" style="height: 380px;">
                             </div>
                             <?php }; ?>
                             <?php if(!empty($foto[1])) { ?>
                             <div class="carousel-item">
-                                <img src="file_uploaded/<?= $foto[1]; ?>" class="d-block w-100" style="height: 380px;">
+                                <img src="img/<?= $foto[1]; ?>" class="d-block w-100" style="height: 380px;">
                             </div>
                             <?php }; ?><?php if(!empty($foto[2])) { ?>
                             <div class="carousel-item">
-                                <img src="file_uploaded/<?= $foto[2]; ?>" class="d-block w-100" style="height: 380px;">
+                                <img src="img/<?= $foto[2]; ?>" class="d-block w-100" style="height: 380px;">
                             </div>
                             <?php }; ?><?php if(!empty($foto[3])) { ?>
                             <div class="carousel-item">
-                                <img src="file_uploaded/<?= $foto[3]; ?>" class="d-block w-100" style="height: 380px;">
+                                <img src="img/<?= $foto[3]; ?>" class="d-block w-100" style="height: 380px;">
                             </div>
                             <?php }; ?><?php if(!empty($foto[4])) { ?>
                             <div class="carousel-item">
-                                <img src="file_uploaded/<?= $foto[4]; ?>" class="d-block w-100" style="height: 380px;">
+                                <img src="img/<?= $foto[4]; ?>" class="d-block w-100" style="height: 380px;">
                             </div>
                             <?php }; ?>
                         </div>

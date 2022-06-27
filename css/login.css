@@ -1,50 +1,26 @@
-html, body{
-	height: 100%;
-	background-color: #e8ffc2;
+body{
+    background-image: url("../img/bg-baru.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    overflow: hidden;
+    }
+
+input{
+    font-size: 5px;
 }
 
-.global-container{
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #0e185f;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-.login-form{
-	width: 380px;
-	height: 450px;
-	padding: 20px;
-	background-color: #0fd !important;
-	border-radius: 10px !important;
+.card{
+    background-color: hsla(0, 0%, 100%, 0.3);;
 }
 
-input[type="email"],
-input[type="password"]{
-	background-color: aquamarine;
-	color: aliceblue;
-	border: 2px solid black;
-	border-radius: 10px;
-	margin-bottom: 25px;
-}
-
-input[type="email"]:focus,
-input[type="password"]:focus{
-	outline: none;
-	border: none;
-	background: rgb(235, 235, 235);
-	margin: 0;
-}
-
-.card-title{
-	font-weight: 900;
-	padding-top: 20px;
-}
-
-.btn{
-	background: rgb(10, 9, 17) !important;
-	color: rgb(255, 250, 252);
-	transform: translateY(10px);
-	font-size: 14px;
-	border-radius: 10px !important;
+@media (min-width: 768px) {
+    .card{
+        height: 555px;
+    }
 }
