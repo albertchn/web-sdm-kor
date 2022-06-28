@@ -88,7 +88,7 @@ $footer = mysqli_query($conn, "SELECT * FROM komponen WHERE nama_komponen = 'foo
     <!-- AKHIR NAVBAR -->
 
     <!-- INTRO -->
-    <section class="mt-5" style="">
+    <section class="mt-5 media-xl">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6">
@@ -96,17 +96,7 @@ $footer = mysqli_query($conn, "SELECT * FROM komponen WHERE nama_komponen = 'foo
                         <div class="col-7 col-lg-8">
                             <h1 class="" style="font-weight: 800;"><?= $judul["isi_komponen"]; ?></h1>
                         </div>
-                    </div>
-                    <p class="my-4"><?= $desk_index["isi_komponen"]; ?></p>
-                    <div class="row">
-                        <div class="col">
-                            <a class="" href="" style="color:black"><?= $folder_srtmsk["isi_komponen"]; ?></a>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col">
-                            <a class="" href="" style="color:black"><?= $folder_srtklr["isi_komponen"]; ?></a>
-                        </div>
+                        <p class="my-4"><?= $desk_index["isi_komponen"]; ?></p>
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">

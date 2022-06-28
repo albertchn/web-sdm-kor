@@ -187,7 +187,7 @@ if(isset($_POST["ubah_footer"])) {
     <!-- AKHIR NAVBAR -->
 
     <!-- INTRO -->
-    <section class="mt-5" style="">
+    <section class="mt-5 media-xl">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6">
@@ -200,17 +200,7 @@ if(isset($_POST["ubah_footer"])) {
                                 <i class="bi bi-pencil-square" ></i>
                             </a>
                         </div>
-                    </div>
-                    <p class="my-4"><?= $desk_index["isi_komponen"]; ?> <a href="#" data-bs-toggle="modal" data-bs-target="#ganti_deskripsi_index" class="text-dark"><i class="bi bi-pencil-square" ></i></a></p>
-                    <div class="row">
-                        <div class="col">
-                            <a class="" href="" style="color:black"><?= $folder_srtmsk["isi_komponen"]; ?> <a href="#" class="text-dark" data-bs-toggle="modal" data-bs-target="#ganti_folder_srtmsk"><i class="bi bi-pencil-square" ></i></a></a>
-                        </div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col">
-                            <a class="" href="" style="color:black"><?= $folder_srtklr["isi_komponen"]; ?> <a href="#" class="text-dark" data-bs-toggle="modal" data-bs-target="#ganti_folder_srtklr"><i class="bi bi-pencil-square" ></i></a></a>
-                        </div>
+                        <p class="my-4"><?= $desk_index["isi_komponen"]; ?> <a href="#" data-bs-toggle="modal" data-bs-target="#ganti_deskripsi_index" class="text-dark"><i class="bi bi-pencil-square" ></i></a></p>
                     </div>
                 </div>
                 <div class="col-lg-6 d-none d-lg-block">
