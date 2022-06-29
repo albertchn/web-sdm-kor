@@ -59,7 +59,7 @@ if(isset($_POST["login"])) {
     <link rel="stylesheet" href="../css/login.css">
     
     <!-- TITLE -->
-    <link rel="shortcut icon" href="img/Lambang_Korpolairud.svg">
+    <link rel="shortcut icon" href="../img/Lambang_Korpolairud.svg">
     <title>LOGIN</title>
 </head>
 <body>
